@@ -13,7 +13,7 @@ import time
 
 from tqdm import tqdm
 
-from lib.utils import preprocess_image
+from .utils import preprocess_image
 
 
 class MegaDepthDataset(Dataset):

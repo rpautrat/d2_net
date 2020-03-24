@@ -15,10 +15,10 @@ from tqdm import tqdm
 
 import warnings
 
-from lib.dataset import MegaDepthDataset
-from lib.exceptions import NoGradientError
-from lib.loss import loss_function
-from lib.model import D2Net
+from .lib.dataset import MegaDepthDataset
+from .lib.exceptions import NoGradientError
+from .lib.loss import loss_function
+from .lib.model import D2Net
 
 
 # CUDA

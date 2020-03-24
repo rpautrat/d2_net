@@ -12,9 +12,9 @@ import scipy
 import scipy.io
 import scipy.misc
 
-from lib.model_test import D2Net
-from lib.utils import preprocess_image
-from lib.pyramid import process_multiscale
+from .lib.model_test import D2Net
+from .lib.utils import preprocess_image
+from .lib.pyramid import process_multiscale
 
 # CUDA
 use_cuda = torch.cuda.is_available()

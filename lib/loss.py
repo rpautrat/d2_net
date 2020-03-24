@@ -6,14 +6,14 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 
-from lib.utils import (
+from .utils import (
     grid_positions,
     upscale_positions,
     downscale_positions,
     savefig,
     imshow_image
 )
-from lib.exceptions import NoGradientError, EmptyTensorError
+from .exceptions import NoGradientError, EmptyTensorError
 
 matplotlib.use('Agg')
 
